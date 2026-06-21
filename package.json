@@ -1,0 +1,7 @@
+{
+  "name": "landpage-patricia",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve . -p $PORT"
+  }
+}
