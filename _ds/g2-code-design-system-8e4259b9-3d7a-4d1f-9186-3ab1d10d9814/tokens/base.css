@@ -1,0 +1,58 @@
+/* ============================================================
+   G2 Code — Base layer (resets + element defaults + helpers)
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  font-weight: var(--weight-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  color: var(--text-strong);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-snug);
+  margin: 0;
+}
+
+a { color: var(--text-link); text-decoration: none; }
+a:hover { color: var(--violet-200); }
+
+code, pre, kbd, samp { font-family: var(--font-mono); }
+
+::selection { background: rgba(123,31,232,0.4); color: #fff; }
+
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-sm); }
+
+/* Custom scrollbar for dark surfaces */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: var(--ink-700); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
+*::-webkit-scrollbar-thumb:hover { background: var(--ink-600); }
+
+/* ---- Brand helpers ---- */
+.g2-gradient-text {
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.g2-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}

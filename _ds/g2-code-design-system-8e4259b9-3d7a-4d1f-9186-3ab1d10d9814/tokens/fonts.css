@@ -1,0 +1,9 @@
+/* ============================================================
+   G2 Code — Webfonts
+   Display: Space Grotesk (geometric, rounded, techy)
+   Body:    Sora (modern geometric sans)
+   Mono:    JetBrains Mono (code accent)
+   NOTE: Linked from Google Fonts CDN. If you have licensed font
+   binaries, replace this @import with local @font-face rules.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');

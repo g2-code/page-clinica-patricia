@@ -1,0 +1,41 @@
+/* ============================================================
+   G2 Code — Typography tokens
+   ============================================================ */
+:root {
+  --font-display: 'Space Grotesk', 'Sora', system-ui, sans-serif;
+  --font-sans:    'Sora', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Type scale (1.250 major-third-ish, tuned for dark UI) */
+  --text-xs:   0.75rem;   /* 12px */
+  --text-sm:   0.875rem;  /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-md:   1.125rem;  /* 18px */
+  --text-lg:   1.375rem;  /* 22px */
+  --text-xl:   1.75rem;   /* 28px */
+  --text-2xl:  2.25rem;   /* 36px */
+  --text-3xl:  3rem;      /* 48px */
+  --text-4xl:  4rem;      /* 64px */
+  --text-5xl:  5.25rem;   /* 84px */
+
+  /* Weights */
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* Line heights */
+  --leading-tight:  1.05;
+  --leading-snug:   1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed:1.7;
+
+  /* Letter spacing */
+  --tracking-tight:  -0.02em;
+  --tracking-snug:   -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-mono:   0.12em;   /* CODE-style wide tech caps */
+  --tracking-eyebrow:0.18em;
+}
